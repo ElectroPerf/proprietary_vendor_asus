@@ -448,6 +448,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/asus/X01BD/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/asus/X01BD/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/asus/X01BD/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
+    vendor/asus/X01BD/proprietary/framework/vendor.qti.hardware.factory-V1.0-java.jar:system/framework/vendor.qti.hardware.factory-V1.0-java.jar \
+    vendor/asus/X01BD/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:system/framework/vendor.qti.hardware.soter-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
@@ -1124,7 +1127,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     PowerOffAlarm \
     TimeService \
-    WfdCommon \
-    vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.hardware.factory-V1.0-java \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java
+    WfdCommon
