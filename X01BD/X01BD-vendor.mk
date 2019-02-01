@@ -8,6 +8,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/X01BD/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus \
+    vendor/asus/X01BD/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
+    vendor/asus/X01BD/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/asus/X01BD/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb \
     vendor/asus/X01BD/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb \
     vendor/asus/X01BD/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb \
@@ -63,6 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/asus/X01BD/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
     vendor/asus/X01BD/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/asus/X01BD/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    vendor/asus/X01BD/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/asus/X01BD/proprietary/vendor/lib/dualcali_dump.bin:$(TARGET_COPY_OUT_VENDOR)/lib/dualcali_dump.bin \
     vendor/asus/X01BD/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/asus/X01BD/proprietary/vendor/lib/libactuator_imx486_holitech_12m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_imx486_holitech_12m.so \

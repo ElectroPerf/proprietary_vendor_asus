@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/asus/X00TD/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus \
     vendor/asus/X00TD/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
+    vendor/asus/X00TD/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/asus/X00TD/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/asus/X00TD/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/asus/X00TD/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -77,6 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/asus/X00TD/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
     vendor/asus/X00TD/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/asus/X00TD/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    vendor/asus/X00TD/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/asus/X00TD/proprietary/vendor/lib/dualcali_dump.bin:$(TARGET_COPY_OUT_VENDOR)/lib/dualcali_dump.bin \
     vendor/asus/X00TD/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
@@ -177,6 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_postproc.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_preview.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_snapshot.so \
+    vendor/asus/X00TD/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_video_full.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_zsl_preview_bu64297.so \
     vendor/asus/X00TD/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_zsl_video_bu64297.so \
