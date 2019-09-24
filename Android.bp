@@ -54,24 +54,6 @@ cc_prebuilt_library_shared  {
 }
 
 cc_prebuilt_library_shared  {
-	name: "libgpustats",
-	owner: "asus",
-	strip: {
-		none:true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgpustats.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
-		},
-	},
-	compile_multilib: "both",
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared  {
 	name: "libthermalclient",
 	owner: "asus",
 	strip: {
@@ -83,6 +65,24 @@ cc_prebuilt_library_shared  {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+		},
+	},
+	compile_multilib: "both",
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared  {
+	name: "libtime_genoff",
+	owner: "asus",
+	strip: {
+		none:true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
 		},
 	},
 	compile_multilib: "both",
