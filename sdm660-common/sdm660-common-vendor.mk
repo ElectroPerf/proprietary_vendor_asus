@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/asus/sdm660-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/asus/sdm660-common/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
-    vendor/asus/sdm660-common/proprietary/system/bin/nvram_btwifi:$(TARGET_COPY_OUT_SYSTEM)/bin/nvram_btwifi \
+    vendor/asus/sdm660-common/proprietary/system_ext/bin/nvram_btwifi:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/nvram_btwifi \
     vendor/asus/sdm660-common/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libadsprpc_system.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcdsprpc_system.so \
@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcdsprpc_system.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdsprpc_system.so \
-    vendor/asus/sdm660-common/proprietary/system/lib64/libmmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmi.so \
+    vendor/asus/sdm660-common/proprietary/system_ext/lib64/libmmi.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmi.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/asus/sdm660-common/proprietary/system_ext/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdsprpc_system.so \
